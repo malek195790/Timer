@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  height: 969px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://wallpaperplay.com/walls/full/c/8/4/14767.jpg);
+}
+
+.Time-style{
+  font-size: 80px;
+  margin: 0;
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 30px;
+  padding: 0 80px;
+}
+
+.Time-style > p{
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Time-style > h1{
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
